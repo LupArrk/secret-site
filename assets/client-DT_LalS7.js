@@ -73,7 +73,7 @@ void main() {
   <p>Only with services the app cannot work without, and only the part of the data they need:</p>
   <ul>
     <li><strong>Google Firebase Authentication</strong> (Google LLC) — the phone number, to send the SMS code and confirm sign-in. Google may process it on its servers outside Ukraine.</li>
-    <li><strong>The hosting provider of the club’s server</strong> (a data centre in the European Union) — the app’s data.</li>
+    <li><strong>Google Cloud</strong> (Google LLC) — the app’s server and database in a data centre in Belgium (European Union).</li>
     <li><strong>Apple</strong> — the device token and the text of a push notification. The text has the child’s first name without a surname and no health data. Payment notifications show the month and the amount, post-training ones whether the child attended, and coaches’ notifications about a new child the year of birth.</li>
     <li><strong>The club’s bank that accepts Apple Pay payments</strong> — the amount and payment reference.</li>
     <li><strong>Banks, for a transfer to IBAN</strong> — your bank and the club’s bank see the amount and the transfer reference with the athlete’s full name; you make the transfer yourself in your bank.</li>
@@ -151,7 +151,7 @@ void main() {
   <p>Лише сервісам, без яких застосунок не працює, і лише ту частину даних, яка їм потрібна:</p>
   <ul>
     <li><strong>Google Firebase Authentication</strong> (Google LLC) — номер телефону, щоб надіслати SMS-код і підтвердити вхід. Google може обробляти його на своїх серверах за межами України.</li>
-    <li><strong>Хостинг-провайдер сервера клубу</strong> (дата-центр у Європейському Союзі) — дані застосунку.</li>
+    <li><strong>Google Cloud</strong> (Google LLC) — сервер і база даних застосунку в дата-центрі в Бельгії (Європейський Союз).</li>
     <li><strong>Apple</strong> — токен пристрою й текст push-сповіщення. У тексті — ім’я дитини без прізвища й без даних про здоров’я. Сповіщення про оплату містять місяць і суму, після тренування — чи була дитина, сповіщення для тренерів про нову дитину — рік народження.</li>
     <li><strong>Банк клубу, що приймає оплату через Apple Pay</strong> — сума й призначення платежу.</li>
     <li><strong>Банки при переказі на IBAN</strong> — ваш банк і банк клубу бачать суму й призначення переказу з ПІБ спортсмена; переказ ви робите самі у своєму банку.</li>
