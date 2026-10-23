@@ -49,7 +49,7 @@ void main() {
     <li><strong>Sports data:</strong> sports ranks and titles, training attendance, skills and homework, answers about taking part in competitions.</li>
     <li><strong>Coaches:</strong> full name and phone number; a photo only with the coach’s consent.</li>
     <li><strong>Payments:</strong> bills, amounts, due dates, status, the bank’s payment ID, receipts, bank transfer reference (athlete’s full name and transfer code). We do not receive or store payment card data: Apple Pay payments are processed by the bank.</li>
-    <li><strong>Consents:</strong> which version of a document you accepted, when and on whose behalf.</li>
+    <li><strong>Consents:</strong> which version of a document you accepted, when, from which device (the app’s installation identifier, platform and app version) and on whose behalf.</li>
     <li><strong>Technical data:</strong> push notification token and app version; number, time and result of sign-in attempts — to protect against code guessing; an activity log (who changed what and when); app crash reports without names, phone numbers or documents.</li>
     <li><strong>Coach notes</strong> about an athlete are visible only to their author and the club administrator. Coaches may not write health data into notes — this is a club rule.</li>
   </ul>
@@ -127,7 +127,7 @@ void main() {
     <li><strong>Спортивні дані:</strong> розряди й звання, відвідування тренувань, елементи й домашні завдання, відповіді про участь у змаганнях.</li>
     <li><strong>Тренери:</strong> прізвище, ім’я, по батькові, номер телефону; фото — лише за згодою тренера.</li>
     <li><strong>Оплати:</strong> рахунки, суми, строки, статус, ідентифікатор платежу в банку, чеки, призначення переказу (ПІБ спортсмена й код переказу). Дані платіжних карток ми не отримуємо й не зберігаємо: оплату через Apple Pay обробляє банк.</li>
-    <li><strong>Погодження:</strong> яку редакцію документа, коли й за кого ви погодили.</li>
+    <li><strong>Погодження:</strong> яку редакцію документа, коли, з якого пристрою (ідентифікатор встановлення застосунку, платформа й версія застосунку) і за кого ви погодили.</li>
     <li><strong>Технічні дані:</strong> токен для push-сповіщень і версія застосунку; номер, час і результат спроб входу — для захисту від підбору коду; журнал дій (хто, що й коли змінив); звіти про збої застосунку без імен, телефонів і документів.</li>
     <li><strong>Нотатки тренера</strong> про спортсмена бачать лише автор нотатки й адміністраторка клубу. Записувати в нотатки дані про здоров’я тренерам не дозволено — таке правило клубу.</li>
   </ul>
