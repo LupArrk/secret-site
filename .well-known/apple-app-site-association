@@ -1,0 +1,12 @@
+{
+  "applinks": {
+    "details": [
+      {
+        "appIDs": ["V7NSFWY87N.site.secretcheerdance.app"],
+        "components": [
+          { "/": "/app/*" }
+        ]
+      }
+    ]
+  }
+}
